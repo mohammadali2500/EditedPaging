@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A9448E03-9B57-4CF6-BF5D-B0EC6BDDF5C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82B9E339-65FA-4132-A5FF-E9CA50AE130D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TestGridPaging", "src\TestGridPaging\TestGridPaging.xproj", "{FEB25663-23F2-4F36-A6B3-DF82010ABF14}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Mvc.Grid.Core", "src\Mvc.Grid.Core\Mvc.Grid.Core.xproj", "{29B8654F-FA13-42F4-8EAF-5E1D03DF8103}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEB25663-23F2-4F36-A6B3-DF82010ABF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB25663-23F2-4F36-A6B3-DF82010ABF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB25663-23F2-4F36-A6B3-DF82010ABF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB25663-23F2-4F36-A6B3-DF82010ABF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B8654F-FA13-42F4-8EAF-5E1D03DF8103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B8654F-FA13-42F4-8EAF-5E1D03DF8103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B8654F-FA13-42F4-8EAF-5E1D03DF8103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B8654F-FA13-42F4-8EAF-5E1D03DF8103}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEB25663-23F2-4F36-A6B3-DF82010ABF14} = {A9448E03-9B57-4CF6-BF5D-B0EC6BDDF5C7}
+		{29B8654F-FA13-42F4-8EAF-5E1D03DF8103} = {A9448E03-9B57-4CF6-BF5D-B0EC6BDDF5C7}
+	EndGlobalSection
+EndGlobal

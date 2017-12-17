@@ -1,0 +1,15 @@
+﻿@model List<TestGridPaging.Controllers.Employee>
+
+@(Html
+    .Grid(Model)
+    .Build(columns =>
+    {
+        columns.Add(model => model.EmployeeId).Titled("Employee Id");
+    })
+    .Pageable(pager =>
+    {
+        pager.PagesToDisplay = 3;
+        pager.CurrentPage = 2;
+        pager.RowsPerPage = 2;
+    })
+)
